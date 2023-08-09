@@ -32,6 +32,7 @@ func main() {
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println(r.Request.URL, "Scraped")
 	})
-	c.Visit("https://br.wikipedia.org/wiki/Degemer")
+
+	c.Visit("https://br.wikipsdasdedia.org/wiki/Degemer")
 
 }
